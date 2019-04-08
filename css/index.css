@@ -160,40 +160,6 @@ p {
   width: 100%;
   margin: 0 auto;
 }
-nav {
-  width: 100%;
-  background-color: rgba(246, 246, 246, 0.9);
-  z-index: 1;
-  position: fixed;
-}
-nav .nav {
-  width: 800px;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-@media only screen and (max-width:500px) {
-  nav .nav {
-    width: 80%;
-  }
-}
-nav .nav h1 {
-  font-size: 3rem;
-  margin: 20px 0;
-}
-nav .nav .navigation {
-  width: 100%;
-  display: flex;
-  justify-content: space-evenly;
-  padding: 10px 0;
-}
-nav .nav .navigation a {
-  text-decoration: none;
-  color: black;
-  font-size: 1.4rem;
-}
 footer {
   color: #22283B;
   background: #f4f4f4;
