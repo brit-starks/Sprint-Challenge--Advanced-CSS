@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 .btn-style {
   background: #22283A;
   color: #F1F1F1;
@@ -245,19 +243,25 @@ footer {
 .home-page .middle-content .middle-img {
   display: flex;
   justify-content: space-between;
-  margin: 2.5rem 0 4rem;
+  margin: 2.5rem 0;
+}
+.home-page .middle-content .middle-img .img {
+  height: 100%;
 }
 @media (max-width: 500px) {
-  .home-page .middle-content .middle-img .launch,
-  .home-page .middle-content .middle-img .sky {
+  .home-page .middle-content .middle-img .blast {
+    width: 100%;
+    margin: 0 2rem;
+  }
+}
+@media (max-width: 500px) {
+  .home-page .middle-content .middle-img .launch {
     display: none;
   }
 }
-@media (min-width: 500px) {
-  .home-page .middle-content .middle-img .blast {
-    border: 2px solid black;
-    width: 800%;
-    height: 9000px;
+@media (max-width: 500px) {
+  .home-page .middle-content .middle-img .sky {
+    display: none;
   }
 }
 .home-page .middle-content .middle-img .middle-content-text {
@@ -301,4 +305,3 @@ footer {
   width: 30%;
   margin: 0 0 0 5rem;
 }
->>>>>>> brittney-thomas

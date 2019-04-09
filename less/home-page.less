@@ -29,22 +29,31 @@
       .middle-img{
         display: flex;
         justify-content: space-between;
-        margin: 2.5rem 0 4rem;
-  
-        .launch, .sky {
-          @media (max-width: 500px) {
-            display: none;
-          }
-        }  
-            
+        margin: 2.5rem 0;
+        
+        .img {
+          height: 100%;
+        }
+        
         .blast {
-          @media( min-width: 500px ) {
-          border: 2px solid black;
-          width: 800%;
-          height: 9000px;
+          @media @phone {
+          width: 100%;
+          margin: 0 2rem;
         }
       }
-  
+      
+      .launch {
+        @media @phone {
+          display: none;
+        }
+      }  
+
+      .sky {
+        @media @phone {
+          display: none;
+        }
+      }
+
       .middle-content-text {
         margin: 5rem 0;
       
