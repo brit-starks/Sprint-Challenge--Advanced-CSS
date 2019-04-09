@@ -20,68 +20,86 @@
       margin: 2rem 0 3rem;
     }
   }
-  
-  .middle-content {
-    width: 100%;
-    
-    .middle-img{
-      display: flex;
-      justify-content: space-between;
-      margin: 2.5rem 0 4rem;
-    }
-
-    .middle-content-text {
-      margin: 5rem 0;
-    
-      h2 {
-        margin: 0 0 2rem 0;
-      }
-    }
-  }
 }
+  .home-page {
 
-.home-page{
-  .bottom-section {
-    max-width: 800px;
-    width: 100%;
-    margin: 10rem 0 0 0;
-    border-top: 1px solid @border-real;
-    
-    .bottom-content {
-      display:flex;
-      width: 80%;
-      margin: 5rem 0;
-      display: flex;
-    }
-
-    .bottom-content-text {
-      margin: 0 3rem;
-      width: 65%;
+    .middle-content {
+      width: 100%;
+      
+      .middle-img{
+        display: flex;
+        justify-content: space-between;
+        margin: 2.5rem 0 4rem;
+  
+        .launch, .sky {
+          @media (max-width: 500px) {
+            display: none;
+          }
+        }  
+            
+        .blast {
+          @media( min-width: 500px ) {
+          border: 2px solid black;
+          width: 800%;
+          height: 9000px;
+        }
+      }
+          
+          
+  
+  
+      .middle-content-text {
+        margin: 5rem 0;
       
         h2 {
-          margin: 0 0 1.5rem 0;
-        }
-    
-      .button {
-        width: 10rem;
-        padding: 1rem 0 1rem 1.5rem;
-        margin: 2.6rem 0 0 0;
-        font-size: 2rem;
-        .btn-style;
-        &:hover{
-          background: @sea-shell;
-          color: @btn-bg;
+          margin: 0 0 2rem 0;
         }
       }
     }
   }
-
   
-    .bottom-img {
-      width: 30%;
-      margin: 0 0 0 5rem;
+  .home-page{
+    .bottom-section {
+      max-width: 800px;
+      width: 100%;
+      margin: 10rem 0 0 0;
+      border-top: 1px solid @border-real;
+      
+      .bottom-content {
+        display:flex;
+        width: 80%;
+        margin: 5rem 0;
+        display: flex;
+      }
+  
+      .bottom-content-text {
+        margin: 0 3rem;
+        width: 65%;
+        
+          h2 {
+            margin: 0 0 1.5rem 0;
+          }
+      
+        .button {
+          width: 10rem;
+          padding: 1rem 0 1rem 1.5rem;
+          margin: 2.6rem 0 0 0;
+          font-size: 2rem;
+          .btn-style;
+          &:hover{
+            background: @sea-shell;
+            color: @btn-bg;
+          }
+        }
+      }
     }
-}
-
+  
     
+      .bottom-img {
+        width: 30%;
+        margin: 0 0 0 5rem;
+      }
+    }
+  }
+
   

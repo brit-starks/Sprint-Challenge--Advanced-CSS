@@ -3,30 +3,36 @@ header {
   max-width: 1600px;
   width: 100%;
   background: @nav-bg;
+
   
   .nav {
+  
     .nav-custom(column, center);
     max-width: 1600px;
     width: 100%;
-  
-      h1 {
+    
+  h1 {
         font-size: 4rem;
         max-width: 340px;
         width: 100%;
         margin: 2rem 0 0 0;
       }
-  
+      
       .navigation {
         max-width: 600px;
         width: 100%;
         margin: 2rem 0 1.3rem 1rem;
         font-size: 1.8rem; 
-  
+        
         a {
           width: 100%;
           color: black;
           margin: 3rem 3rem 2rem 2rem;
           text-decoration: none;
+         
+          @media @phone{
+            margin: 0 1.5rem;
+          }
         }
       }
     }
