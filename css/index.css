@@ -1,0 +1,279 @@
+.btn-style {
+  background: #22283A;
+  color: #F1F1F1;
+  border-radius: 1rem;
+}
+.img-style {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-radius: 2rem;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+html,
+body {
+  font-family: 'Ubuntu', sans-serif;
+  color: #5E6164;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Russo One', sans-serif;
+  color: #23293B;
+}
+h2 {
+  font-size: 3.2rem;
+}
+h3 {
+  font-size: 2.8rem;
+}
+p {
+  font-size: 1.6rem;
+  line-height: 1.4;
+}
+header {
+  max-width: 1600px;
+  width: 100%;
+  background: #F6F6F6;
+}
+header .nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1600px;
+  width: 100%;
+}
+header .nav h1 {
+  font-size: 4rem;
+  max-width: 340px;
+  width: 100%;
+  margin: 2rem 0 0 0;
+}
+header .nav .navigation {
+  max-width: 600px;
+  width: 100%;
+  margin: 2rem 0 1.3rem 1rem;
+  font-size: 1.8rem;
+}
+header .nav .navigation a {
+  width: 100%;
+  color: black;
+  margin: 3rem 3rem 2rem 2rem;
+  text-decoration: none;
+}
+footer {
+  width: 100%;
+  height: 60px;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #F6F6F6;
+  color: #81848E;
+}
+.home-page {
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+}
+.home-page .img {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-radius: 2rem;
+}
+.home-page .heading-img {
+  border-radius: 1rem;
+}
+.home-page .intro {
+  font-size: 3rem;
+  margin: 0 0 2rem 0;
+}
+.home-page .intro h1 {
+  margin: 2rem 0 3rem;
+}
+.home-page .middle-content {
+  width: 100%;
+}
+.home-page .middle-content .middle-img {
+  display: flex;
+  justify-content: space-between;
+  margin: 2.5rem 0 4rem;
+}
+.home-page .middle-content .middle-content-text {
+  margin: 5rem 0;
+}
+.home-page .middle-content .middle-content-text h2 {
+  margin: 0 0 2rem 0;
+}
+.home-page .bottom-section {
+  max-width: 800px;
+  width: 100%;
+  margin: 10rem 0 0 0;
+  border-top: 1px solid #dee2e6;
+}
+.home-page .bottom-section .bottom-content {
+  width: 80%;
+  margin: 5rem 0;
+  display: flex;
+}
+.home-page .bottom-section .bottom-content-text {
+  margin: 0 3rem;
+  width: 65%;
+}
+.home-page .bottom-section .bottom-content-text h2 {
+  margin: 0 0 1.5rem 0;
+}
+.home-page .bottom-section .bottom-content-text .button {
+  width: 10rem;
+  padding: 1rem 0 1rem 1.5rem;
+  margin: 2.6rem 0 0 0;
+  font-size: 2rem;
+  background: #22283A;
+  color: #F1F1F1;
+  border-radius: 1rem;
+}
+.home-page .bottom-img {
+  width: 30%;
+  margin: 0 0 0 5rem;
+}
